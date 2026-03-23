@@ -1,0 +1,19 @@
+1. Stock Trading Platform → CP (Consistency + Partition Tolerance)
+
+A stock trading platform prioritizes Consistency and Partition Tolerance.
+It is critical that all users see the same and most up-to-date stock prices and transactions. Any inconsistency can lead to financial loss or unfair trades. During network issues (partition), the system may sacrifice availability to ensure data accuracy.
+
+2. Content Delivery Network (CDN) → AP (Availability + Partition Tolerance)
+
+A CDN prioritizes Availability and Partition Tolerance.
+The system must always serve content (like images, videos, web pages) even if some nodes are down. Slight inconsistencies (e.g., outdated content) are acceptable compared to downtime, so availability is preferred over strict consistency.
+
+3. Airline Booking System → CP (Consistency + Partition Tolerance)
+
+An airline booking system prioritizes Consistency and Partition Tolerance.
+It is essential to prevent issues like double booking of seats, so the system must maintain consistent data across all nodes. In case of network failure, availability may be reduced to ensure correctness of booking information.
+
+4. Video Streaming Service → AP (Availability + Partition Tolerance)
+
+A video streaming service prioritizes Availability and Partition Tolerance.
+Users expect uninterrupted streaming, so the system must remain highly available. Temporary inconsistencies (like slightly outdated recommendations or buffering differences) are acceptable, making availability more important than strict consistency.
