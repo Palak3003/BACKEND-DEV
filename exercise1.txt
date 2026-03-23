@@ -1,0 +1,19 @@
+1. Online Banking System → SQL
+
+An online banking system should use a SQL database because it requires high consistency, reliability, and transactional integrity. Financial transactions must follow ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure that money transfers are accurate and secure. Any inconsistency can lead to serious financial errors.
+
+2. Social Media Platform → NoSQL
+
+A social media platform is best suited for a NoSQL database because it handles large volumes of unstructured and semi-structured data such as posts, comments, likes, and media files. It requires high scalability and flexibility, as user data and features change frequently. NoSQL supports horizontal scaling and dynamic schemas.
+
+3. Real-time Chat Application → NoSQL
+
+A real-time chat application should use a NoSQL database because it needs high availability and low latency for instant message delivery. The data structure is flexible (messages, timestamps, media), and NoSQL databases can efficiently handle real-time data and large-scale concurrent users.
+
+4. Hospital Patient Records → SQL
+
+Hospital patient records should use a SQL database because they require structured data storage, data integrity, and strict consistency. Medical data must be accurate and reliable, and relationships between entities (patients, doctors, treatments) are important. SQL ensures data correctness and supports complex queries.
+
+5. IoT Sensor Data Collection → NoSQL
+
+IoT sensor data collection is best suited for a NoSQL database because it involves high-volume, continuous data streams from multiple devices. The data is often semi-structured and requires high scalability and fast write operations. NoSQL databases efficiently handle such large-scale, real-time data ingestion.
